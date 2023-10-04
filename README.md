@@ -1,26 +1,20 @@
-﻿# Akaunting™
+﻿# OpenKaunt 
 
-[![Release](https://img.shields.io/github/v/release/akaunting/akaunting?label=release)](https://github.com/akaunting/akaunting/releases)
-![Downloads](https://img.shields.io/github/downloads/akaunting/akaunting/total?label=downloads)
-[![Translations](https://badges.crowdin.net/akaunting/localized.svg)](https://crowdin.com/project/akaunting)
-[![Tests](https://img.shields.io/github/actions/workflow/status/akaunting/akaunting/tests.yml?label=tests)](https://github.com/akaunting/akaunting/actions)
-[![License](https://img.shields.io/github/license/akaunting/akaunting?label=license)](LICENSE.txt)
+This is a fork of Akaunting(tm) without the License Change from GPL 3.0 to BSL 1.1.
 
-Akaunting is a free, open source and online accounting software designed for small businesses and freelancers. It is built with modern technologies such as Laravel, VueJS, Tailwind, RESTful API etc. Thanks to its modular structure, Akaunting provides an awesome App Store for users and developers.
+OpenKaunt is a free, open source and online accounting software designed for small businesses and freelancers. It is built with modern technologies such as Laravel, VueJS, Tailwind, RESTful API etc.
 
-* [Home](https://akaunting.com) - The house of Akaunting
-* [Forum](https://akaunting.com/forum) - Ask for support
-* [Documentation](https://akaunting.com/hc/docs) - Learn how to use
-* [Developer Portal](https://developer.akaunting.com) - Generate passive income
-* [App Store](https://akaunting.com/apps) - Extend your Akaunting
-* [Translations](https://crowdin.com/project/akaunting) - Help us translate Akaunting
+## Motivation
+
+Akaunting(tm) switched its license from the GNU General Public License version 3 (GPL v3) to the Business Source License 1.1 (BSL 1.1). One of the main concerns with their implementation of the BSL 1.1 is the restriction they added, which only allows the software to be used by up to two users and for a single business. We believe that this restriction is not in line with the spirit of open software and it can hinder the software's potential growth and usage.
+
+By maintaining a fork of Akaunting(tm) under the GPL v3, our intention is to provide an alternative for those who share our concerns and wish to use, modify, and distribute the software without these restrictions.
 
 ## Requirements
 
 * PHP 8.1 or higher
 * Database (eg: MySQL, PostgreSQL, SQLite)
 * Web Server (eg: Apache, Nginx, IIS)
-* [Other libraries](https://akaunting.com/hc/docs/on-premise/requirements/)
 
 ## Framework
 
@@ -41,15 +35,11 @@ php artisan install --db-name="akaunting" --db-username="root" --db-password="pa
 
 ## Contributing
 
-Please, be very clear on your commit messages and pull requests, empty pull request messages may be rejected without reason.
-
-When contributing code to Akaunting, you must follow the PSR coding standards. The golden rule is: Imitate the existing Akaunting code.
-
-Please note that this project is released with a [Contributor Code of Conduct](https://akaunting.com/conduct). By participating in this project you agree to abide by its terms.
+More will follow.
 
 ## Translation
 
-If you'd like to contribute translations, please check out our [Crowdin](https://crowdin.com/project/akaunting) project.
+More will follow
 
 ## Changelog
 
@@ -57,14 +47,11 @@ Please see [Releases](../../releases) for more information what has changed rece
 
 ## Security
 
-Please review [our security policy](https://github.com/akaunting/akaunting/security/policy) on how to report security vulnerabilities.
-
 ## Credits
-
 * [Denis Duliçi](https://github.com/denisdulici)
 * [Cüneyt Şentürk](https://github.com/cuneytsenturk)
 * [All Contributors](../../contributors)
 
 ## License
 
-Akaunting is released under the [GPLv3 license](LICENSE.txt).
+Akaunting is released under the [GPLv3 license](LICENSE.txt). This Branch will forever stay GPLv3. 
